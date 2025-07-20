@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIPERPUS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Tambah Buku</h2>
+    <form>
+      <div class="form-group">
+        <label for="judul">Judul Buku</label>
+        <div class="input-wrapper">
+          <input type="text" id="judul" name="judul" class="input-tinggi">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="isbn">ISBN</label>
+        <input type="text" id="isbn" name="isbn">
+      </div>
+
+      <div class="form-group">
+        <label for="kategori">Kategori</label>
+        <select id="kategori" name="kategori">
+          <option value="fiksi">Fiksi</option>
+          <option value="non-fiksi">Non-Fiksi</option>
+          <option value="pendidikan">Pendidikan</option>
+          <option value="sejarah">Sejarah</option>
+          <option value="teknologi">Teknologi</option>
+          <option value="bisnis">Bisnis</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="pengarang">Pengarang</label>
+        <input type="text" id="pengarang" name="pengarang">
+      </div>
+
+      <div class="form-group">
+        <label for="penerbit">Penerbit</label>
+        <input type="text" id="penerbit" name="penerbit">
+      </div>
+
+      <div class="form-group">
+        <label for="tahun">Tahun Terbit</label>
+        <div class="input-wrapper">
+          <input type="text" id="tahun" name="tahun" class="input-kecil">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="jumlah">Jumlah Buku Tersedia</label>
+        <div class="input-wrapper">
+          <input type="text" id="tahun" name="tahun" class="input-kecil">
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button type="submit" class="btn-simpan">Simpan</button>
+        <button type="button" class="btn-batal">Batal</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
